@@ -5,11 +5,11 @@
 class Anchor < Formula
   desc ""
   homepage "https://github.com/SongStitch/anchor"
-  version "0.0.16"
+  version "0.0.17"
   depends_on :macos
 
-  url "https://github.com/SongStitch/anchor/releases/download/v0.0.16/anchor_0.0.16_darwin_all.tar.gz"
-  sha256 "f8717e0bf3e8d3fc49cdc84a1b35b2674a7040aff46c6983af0dac821b33fcda"
+  url "https://github.com/SongStitch/anchor/releases/download/v0.0.17/anchor_0.0.17_darwin_all.tar.gz"
+  sha256 "04123c154c7a300d1f08d899b3569d7bbd181fef9ac199a3e35ca6b78e8a7379"
 
   def install
     bin.install "anchor"
